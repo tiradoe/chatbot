@@ -1,0 +1,28 @@
+{
+    "characters":[
+        {
+            "username": "Slack-Support",
+            "icon_url": "http://i.imgur.com/MSaGKKd.jpg"
+        },
+
+        {
+            "username": "Sgt-Slack",
+            "icon_url": "http://i.imgur.com/yu9lXsC.png"
+        },
+
+        {
+            "username": "Rick-Springfield",
+            "icon_url": "http://i.imgur.com/TGsDVwX.jpg"
+        },
+
+        {
+            "username": "Hulk-Hogan",
+            "icon_url": "http://i.imgur.com/I63H8ax.jpg"
+        },
+
+        {
+            "username": "Macho-Man",
+            "icon_url": "http://i.imgur.com/JYDicT2.jpg"
+        }
+    ]
+}
