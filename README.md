@@ -24,4 +24,6 @@ That should be enough to get you up and running with the default characters.  Ju
 
 Adding/changing characters
 --------------------------
-The script pulls a list of characters from characters.json.  The list contains a set of pairs than contain the username and image for the message sender.  Add or remove them as needed.
+The script pulls a list of characters from characters.json.  The list contains a set of pairs than hold the username and image for the message sender.  Add or remove them as needed.
+
+![Image](http://i.imgur.com/08LG6us.png)
