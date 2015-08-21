@@ -7,7 +7,7 @@ import os
 import urllib
 import json
 
-url = os.environ['SLACK_HOOK']
+URL = os.environ['SLACK_HOOK']
 
 characterJSON = open('characters.json').read()
 output_json = json.loads(characterJSON)
@@ -43,5 +43,5 @@ params = {"username":username,
          }
 
 data = json.dumps(params)
-req = urllib.urlopen(url, data)
+req = urllib.urlopen(URL, data)
 print(req.read()) #Display send status
