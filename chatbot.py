@@ -1,4 +1,8 @@
+""" Chatbot - Post to slack as another user
+    Author: Edward Tirado Jr."""
+
 #!/usr/bin/python
+from __future__ import print_function
 import os
 import urllib
 import json
@@ -10,10 +14,10 @@ output_json = json.loads(characterJSON)
 totalCharacters = len(output_json["characters"])
 
 for index, character in enumerate(output_json["characters"]):
-        print(str(index + 1) + ') ' + character["username"])
+    print(str(index + 1) + ') ' + character["username"])
 
-        if index == totalCharacters - 1:
-                print(str(index + 2) + ') Other')
+    if index == totalCharacters - 1:
+        print(str(index + 2) + ') Other')
 
 
 character = raw_input("Choose a character => ")
@@ -31,12 +35,11 @@ else:
 
 
 message = raw_input("Enter message => ")
-params = {
-            "username":username,
-            "icon_url":icon_url,
-            "text": message,
-            "channel":channel,
-            "link_names":1
+params = {"username":username,
+          "icon_url":icon_url,
+          "text": message,
+          "channel":channel,
+          "link_names":1
          }
 
 data = json.dumps(params)
